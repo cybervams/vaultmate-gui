@@ -22,16 +22,30 @@ A secure password manager application with a modern GUI interface built using Py
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd password-manager
+git clone https://github.com/webtech781/vaultmate-gui.git
+cd vaultmate-gui
+```
+2.Create a Python virtual environment and activate it:
+
+Windows:
+
+```bash
+python -m venv venv
+venv\Scripts\activate
 ```
 
-2. Install dependencies:
+macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file in the root directory with the following variables:
+4. Create a `.env` file in the root directory with the following variables:
 ```
 MONGODB_URI=your_mongodb_connection_string
 DB_NAME=your_database_name
@@ -83,7 +97,7 @@ python main.py
 
 ## Support
 
-For support or feature requests, please open an issue in the repository or contact support@passwordmanager.com
+For support or feature requests, please open an issue in the repository 
 
 ## License
 
