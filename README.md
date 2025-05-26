@@ -145,5 +145,5 @@ Have a feature request, bug, or question?
 👉 Open an issue on GitHub
 
 📄 License
-This project is licensed under the MIT License. See the [LICENSE]() file for more information.
+This project is licensed under the MIT License. See the [LICENSE](http://github.com/webtech781/vaultmate-gui?tab=MIT-1-ov-file) file for more information.
 
