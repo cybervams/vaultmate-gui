@@ -36,6 +36,7 @@ MongoDB instance (local or cloud)
 Gmail account with App Password (2FA enabled)
 
 ⚙️ Setup Instructions
+
 1.Clone the Repository :
 ```bash
 git clone https://github.com/webtech781/vaultmate-gui.git
