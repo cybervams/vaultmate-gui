@@ -85,9 +85,9 @@ Start the GUI application:
    ```
 If provided, you can use default admin credentials:
 
-Username: admin
+Username: ```admin```
 
-Password: admin123
+Password: ```admin123```
 
 🧭 Usage Guide
 🔐 Add New Password
@@ -121,7 +121,7 @@ Password: admin123
 🔒 Security Highlights
 - Passwords are encrypted before storage
 
-- Authentication passwords are hashed using bcrypt
+- Authentication passwords are hashed using ```bcrypt```
 
 - Gmail verification for registration and password reset
 
@@ -130,53 +130,20 @@ Password: admin123
 - Unique indexing to prevent duplicate entries
 
 💡 Best Practices
-Never share your master password
+- Never share your master password
 
-Use strong, unique credentials
+- Use strong, unique credentials
 
-Enable 2FA on all your accounts
+- Enable 2FA on all your accounts
 
-Update passwords regularly
+- Update passwords regularly
 
-Keep VaultMate updated for the latest security fixes
+- Keep VaultMate updated for the latest security fixes
 
 🛠️ Support & Contributions
 Have a feature request, bug, or question?
 👉 Open an issue on GitHub
 
 📄 License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+This project is licensed under the MIT License. See the [LICENSE]() file for more information.
 
-
-
-## Features Guide
-
-### Adding Passwords
-- Click "Add App Password" or "Add Web Password"
-- Fill in the required details
-- Click "Save"
-
-### Viewing Passwords
-- Click "View Passwords"
-- Use the search box to filter passwords
-- Click "Clear" to reset the search
-
-### Deleting Passwords
-- Click "Delete Passwords"
-- Select a password from the list
-- Click the red "Delete Selected Password" button
-- Confirm the deletion
-
-### Profile Management
-- Click "Profile"
-- View your account details
-- Change your password
-- Delete your account
-
-## Security Features
-
-- Password hashing using bcrypt
-- Secure MongoDB connection
-- Unique indexes to prevent duplicates
-- Input validation
-- Confirmation dialogs for important actions 
