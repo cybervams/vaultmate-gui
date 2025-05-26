@@ -1,46 +1,67 @@
-# vaultmate-gui(Password Manager)
+# VaultMate GUI – Password Manager
 
-A secure, cross-platform GUI-based password manager built with Python and MongoDB. Store, manage, and retrieve your passwords safely with encryption and a simple user interface.
+A secure, cross-platform, and modern password manager with a user-friendly GUI built using Python, CustomTkinter, and MongoDB. VaultMate ensures your credentials are encrypted and easily accessible, while prioritizing strong security practices like email verification, 2FA, and hashed authentication.
 
-## Features
 
-- User authentication (login/register)
-- Secure password storage
-- App and web password management
-- Password search functionality
-- Password deletion
-- User profile management
-- Change password option
+## 🚀 Features
 
-## Installation
+✅ User registration and authentication with email verification
 
-1. Clone the repository
+🔐 Secure password storage using encryption
 
+🔍 Password search and filter functionality
+
+🗂️ Organize passwords by categories (App/Web/Custom)
+
+➕ Add, edit, and delete stored passwords
+
+🔄 Password generator built-in
+
+📤 Import/Export support
+
+👤 Profile management (change password, delete account)
+
+🧠 Admin default account (optional)
+
+📧 Gmail integration for verification & password reset
+
+💻 Cross-platform GUI with CustomTkinter
+
+
+
+## Setup
+
+1. Clone the repository:
+```bash
+git clone https://github.com/webtech781/vaultmate-gui.git
+cd vaultmate-gui
+```
 2.Create a Python virtual environment and activate it:
 
 Windows:
 
-   ```bash
-   python -m venv venv
-   venv\Scripts\activate
-   ```
-   
-   macOS/Linux:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate
-   ```
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
 
-3. Install required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Create a `.env` file with your MongoDB connection string:
-   ```
-   MONGODB_URI=mongodb://localhost:27017/
-   EMAIL_USER=**********@gmail.com
-   EMAIL_PASSWORD=**** **** **** ****
-   ```
+macOS/Linux:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Create a `.env` file in the root directory with the following variables:
+```
+MONGODB_URI=mongodb://localhost:27017/
+EMAIL_USER=**********@gmail.com
+EMAIL_PASSWORD=**** **** **** ****
+```
 
 ## Usage
 
